@@ -1,0 +1,20 @@
+{
+  "name": "math-visualize",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "ts-node": "^10.9.2"
+  }
+}
